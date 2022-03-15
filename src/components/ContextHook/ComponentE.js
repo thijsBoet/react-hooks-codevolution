@@ -7,6 +7,7 @@ const ComponentE = () => {
 	return (
 		<div>
 			{user} - {channel}
+			<hr />
 		</div>
 	);
 };

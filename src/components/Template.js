@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useReducer } from 'react';
 
-const UseEffectOne = () => {
+const FunctionName = () => {
 	return (
 		<div>
-			<h3>UseEffectOne</h3>
+			<h3>FunctionName</h3>
 
 			<hr />
 		</div>
 	);
 };
 
-export default UseEffectOne;
+export default FunctionName;

@@ -9,6 +9,8 @@ import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectFetchOne from './components/UseEffectFetchOne';
 import ComponentC from './components/Context/ComponentC';
 import ComponentCHook from './components/ContextHook/ComponentC';
+import ReducerCounterOne from './components/ReducerCounterOne';
+import ReducerCounterTwo from './components/ReducerCounterTwo';
 
 import './App.css';
 
@@ -36,6 +38,8 @@ function App() {
 					<ComponentCHook />
 				</ChannelContext.Provider>
 			</UserContext.Provider>
+			<ReducerCounterOne />
+			<ReducerCounterTwo />
 		</div>
 	);
 }
